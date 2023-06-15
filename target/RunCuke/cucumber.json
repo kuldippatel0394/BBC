@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7852017600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "As a user I would like to navigate to different pages",
+        "description": "",
+        "id": "testing-few-functionality-of-homepage-of-bbc;as-a-user-i-would-like-to-navigate-to-different-pages",
+        "after": [
+          {
+            "result": {
+              "duration": 741996400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 264077700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on homepage",
+            "match": {
+              "location": "MyStepdefs.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2360664100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User to accept cookie",
+            "match": {
+              "location": "MyStepdefs.userToAcceptCookie()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1565917100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user to click on sign in",
+            "match": {
+              "location": "MyStepdefs.userToClickOnSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205090600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user to enter email address on email address field \"kuldip.patel0394@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kuldip.patel0394@gmail.com",
+                  "offset": 52
+                }
+              ],
+              "location": "MyStepdefs.userToEnterEmailAddressOnEmailAddressField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136355000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user to enter password on password field \"Skyline-89\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Skyline-89",
+                  "offset": 42
+                }
+              ],
+              "location": "MyStepdefs.userToEnterPasswordOnPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2315266400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user to click on sign in button",
+            "match": {
+              "location": "MyStepdefs.userToClickOnSignInButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4275007400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "As a user I would navigate  to sport page",
+        "description": "",
+        "id": "testing-few-functionality-of-homepage-of-bbc;as-a-user-i-would-navigate--to-sport-page",
+        "after": [
+          {
+            "result": {
+              "duration": 739734300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on homepage",
+            "match": {
+              "location": "MyStepdefs.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1943206200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user to navigate to any of the categories from main menu",
+            "match": {
+              "location": "MyStepdefs.userToNavigateToAnyOfTheCategoriesFromMainMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1711955600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User to navigate to different page from selected page",
+            "match": {
+              "location": "MyStepdefs.userToNavigateToDifferentPageFromSelectedPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179017200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User to click on article with comment function",
+            "match": {
+              "location": "MyStepdefs.userToClickOnArticleWithCommentFunction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1440437300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User to verify comment is enabled or not",
+            "match": {
+              "location": "MyStepdefs.userToVerifyCommentIsEnabledOrNot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing few functionality of Homepage of BBC",
+    "description": "\r\nAs a user I would like to test few functionality of navigating different pages",
+    "id": "testing-few-functionality-of-homepage-of-bbc",
+    "keyword": "Feature",
+    "uri": "Homepage.feature"
+  }
+]
